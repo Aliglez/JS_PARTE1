@@ -1,0 +1,9 @@
+#Texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#valueInput {
+    padding: 5px;
+}

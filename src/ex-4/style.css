@@ -1,4 +1,13 @@
 
-h3 {
-    color: brown;
+.introNum {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 60px;
+}
+
+button {
+    width: 60px;
 }

@@ -1,14 +1,8 @@
-let a = 3
-let b = 5
+const getValueInput = () => {
+    let a = document.querySelector("#domNum1Element").value;
+    let b = document.querySelector("#domNum2Element").value;
+    const suma = parseFloat(a) + parseFloat(b);
 
-let resultado= a + b
+    document.querySelector('#sumaSection').innerHTML = /* html */`La suma de ${a} y de ${b} es ${suma}`;
 
-const sumaSection = document.getElementById('suma')
-
-function printResultado(){
-    sumaSection.innerHTML = /* html */`
-    <h3>La suma de ${a} + ${b} es ${resultado}<h3>
-    `
 }
-
-printResultado()

@@ -1,4 +1,5 @@
 # JS_PARTE1
+
 Primeros ejercicios de JavaScript - Cada ejecicio en un rama
 
 ex-1: Escribe un programa que escriba en la pantalla un texto de tipo <h1> que diga “Hello Javascript”.
